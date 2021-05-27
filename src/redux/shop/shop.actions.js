@@ -1,6 +1,6 @@
 import ShopActionsTypes from './shop.types';
 
-import { firestore, coventCollectionsSnapshotToMap } from '../../firebase/firebase.utils';
+    import { firestore, coventCollectionsSnapshotToMap } from '../../firebase/firebase.utils';
 
 export const fetchCollectionsStart = () => ({
   type: ShopActionsTypes.FETCH_COLLECTIONS_START
