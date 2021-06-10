@@ -2,6 +2,18 @@
 # yarn lockfile v1
 
 
+"@babel/helper-plugin-utils@^7.14.5":
+  version "7.14.5"
+  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.14.5.tgz#5ac822ce97eec46741ab70a517971e443a70c5a9"
+  integrity sha512-/37qQCE3K0vvZKwoK4XU/irIJQdIfCJuhU5eKnNxpFDsOkgFaUAwbv+RYw6eYgsC0E4hS7r5KqGULUogqui0fQ==
+
+"@babel/plugin-syntax-throw-expressions@^7.14.5":
+  version "7.14.5"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-throw-expressions/-/plugin-syntax-throw-expressions-7.14.5.tgz#db96785d9131fa7e7868968e8a777ac6d3eda801"
+  integrity sha512-4aFC2goA9+JceXayipcSY017nGspvcAkzR+sdsT6hN4DUuHWvM88wdjf/Nxja5sTE7oYPmfuN84ViREdgjingw==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.14.5"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
