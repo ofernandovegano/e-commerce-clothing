@@ -8,7 +8,7 @@ import { emailSignInStart, googleSignInStart } from '../../redux/user/user.actio
 
 import './sign-in.styles.scss';
 
-const SignIn = ({ emailSignInStart }) => {
+const SignIn = ({ emailSignInStart, googleSignInStart }) => {
   const [userCredentials, setCredentials] = useState({email: '', password: ''})
 
   const { email, password } = userCredentials;
