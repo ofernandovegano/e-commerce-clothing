@@ -30,7 +30,7 @@ export function* getSnapshotFromUserAuth(userAuth, additionalData) {
   }
 };
 
-export function* signInWIthGoogle() {
+export function* signInWithGoogle() {
   try {
     const {user} = yield auth.signInWithPopup(googleProvider);
     yield getSnapshotFromUserAuth(user);
@@ -84,7 +84,7 @@ export function* signInAfterSignUp({ payload: { user, additionalData } }){
 }
 
 export function* onGoogleSignInStart() {
-  yield takeLatest(UserActionTypes.GOOGLE_SIGN_IN_START, signInWIthGoogle )
+  yield takeLatest(UserActionTypes.GOOGLE_SIGN_IN_START, signInWithGoogle )
 };
 
 export function* onEmailSignInStart() {
